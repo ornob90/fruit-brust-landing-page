@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,5 +34,58 @@
     </script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header class="max-w-7xl mx-auto w-4/5">
+      <nav
+        class="navbar bg-[#F85559] text-white rounded-full mt-4 flex justify-between p-4 w-full"
+      >
+        <div class="navbar-center hidden lg:flex ml-4">
+          <ul class="menu menu-horizontal px-1 flex gap-7">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Shop</li>
+            <li>All Fruits</li>
+          </ul>
+        </div>
+
+        <div class="navbar-start">
+          <div class="flex justify-center items-center mx-auto">
+            <img class="w-[20%]" src="./images/logo.png" alt="" />
+            <a class="btn btn-ghost normal-case text-[5vw] md:text-3xl mx-4 p-0"
+              >Fruit Burst</a
+            >
+          </div>
+        </div>
+
+        <div class="w-2/5 relative hidden md:block">
+          <input
+            type="text"
+            placeholder="Search here"
+            class="input input-ghost w-full max-w-xs bg-white rounded-full py-0 h-[2rem] text-sm"
+          />
+
+          <div class="absolute top-[10%] right-[5%]">
+            <i class="fa-solid text-[#121212] fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <i class="fa-solid fa-bars text-xl" style="color: #121212"></i>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 gap-4"
+          >
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Shop</li>
+            <li>All Fruits</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
