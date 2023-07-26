@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <div class="dropdown dropdown-bottom dropdown-left">
+        <div class="dropdown dropdown-bottom dropdown-left lg:hidden">
           <label tabindex="0" class="mx-auto mt-3 mb-3 mr-3 btn btn-ghost">
             <i class="text-xl fa-solid fa-bars" style="color: #121212"></i>
           </label>
@@ -79,12 +79,16 @@
             tabindex="0"
             class="menu w-max dropdown-content mt-3 z-[1] p-2 shadow rounded-box gap-4 bg-black"
           >
-            <li>
+            <li class="relative md:hidden">
               <input
                 type="text"
                 placeholder="Search here"
                 class="input input-ghost w-full max-w-xs bg-white rounded-full py-0 h-[2rem] text-sm"
               />
+
+              <div class="absolute top-[10%] right-[5%]">
+                <i class="fa-solid text-[#121212] fa-magnifying-glass"></i>
+              </div>
             </li>
             <li>Home</li>
             <li>About Us</li>
