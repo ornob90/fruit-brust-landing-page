@@ -32,6 +32,11 @@
   background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
     url("./images/team.png");
 }
+.why-choose-us {
+  background: url("./images/whychoose1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .font-lato {
   font-family: "Lato", sans-serif;
