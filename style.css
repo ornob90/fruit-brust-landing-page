@@ -28,6 +28,11 @@
   border-radius: 8px;
 }
 
+.team {
+  background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
+    url("./images/team.png");
+}
+
 .font-lato {
   font-family: "Lato", sans-serif;
 }
