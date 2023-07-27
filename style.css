@@ -3,28 +3,28 @@
 .slide1 {
   background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
     url("./images/banner1.png");
-  background-size: contain;
+  background-size: cover;
   border-radius: 8px;
 }
 
 .slide2 {
   background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
     url("./images/banner2.png");
-  background-size: contain;
+  background-size: cover;
   border-radius: 8px;
 }
 
 .slide3 {
   background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
     url("./images/banner3.png");
-  background-size: contain;
+  background-size: cover;
   border-radius: 8px;
 }
 
 .slide4 {
   background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
     url("./images/banner4.png");
-  background-size: contain;
+  background-size: cover;
   border-radius: 8px;
 }
 
